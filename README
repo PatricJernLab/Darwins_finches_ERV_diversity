@@ -1,0 +1,17 @@
+README
+ERV - Darwin's finch analysis scripts
+28 March 2022
+
+R analysis script used to generate ERV variation analysis results from locus data.
+
+Required software: R v >= 3.1, Tidyverse v >= 0.9, Viridis v >= 0.5, ape v >= 5.0
+Recommended software: Rstudio for interactive run mode
+
+INSTALLATION INSTRUCTIONS
+Unzip archive containing locus data and analysis scripts in Rstudio. If necessary install required packages with: install_packages(c("Tidyverse","Viridis","ape"))
+Install time < 10 minutes
+
+
+Instructions for use:
+Execute each consecutive block of code as needed for analysis results. Save plots as PDFs by uncommenting the relevant line of code in plot generation code blocks. Information regarding locus counts, allele frequencies, and other results can be queried by viewing the generated data frames.
+
